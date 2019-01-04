@@ -1,7 +1,5 @@
 <!-- get_header('Page Name','Title')-->
 
-<!-- webform url https://script.google.com/macros/s/AKfycbw2GSVsq7gWQZkPB2rfg2tXoafPsa6IYVh3cFaiJShULwjOuGPW/exec -->
-
 <!doctype html>
 <html class="no-js" lang="en">
 	<head>
@@ -565,22 +563,6 @@
 		</footer>
 		<!-- footer section end -->
 		<!-- js file start -->
-		<script>
-		var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbw2GSVsq7gWQZkPB2rfg2tXoafPsa6IYVh3cFaiJShULwjOuGPW/exec'
-
-		$('#submit-form').on('click', function(e) {
-		  e.preventDefault();
-		  var jqxhr = $.ajax({
-		    url: url,
-		    method: "GET",
-		    dataType: "json",
-		    data: $form.serializeObject()
-		  }).success(
-		    // do something
-		  );
-		})
-		</script>
 		<script src="assests/js/jquery-3.2.1.min.js"></script>
 		<script src="assests/js/plugins.js"></script>
 		<script src="assests/js/Popper.js"></script>
