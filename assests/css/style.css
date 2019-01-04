@@ -1976,7 +1976,7 @@ button:focus {
       color: #FFFFFF; }
 
 .copyright {
-  padding: 85px 0 25px;
+  padding: 25px 0 25px;
   background-color: #031d48; }
   .copyright .social-list {
     text-align: right; }
@@ -5394,5 +5394,3 @@ img[data-scrollax] {
     opacity: .03;
     font-size: 20rem;
     color: #000000; }
-
-
