@@ -1,4 +1,7 @@
 <!-- get_header('Page Name','Title')-->
+
+<!-- webform url https://script.google.com/macros/s/AKfycbw2GSVsq7gWQZkPB2rfg2tXoafPsa6IYVh3cFaiJShULwjOuGPW/exec -->
+
 <!doctype html>
 <html class="no-js" lang="en">
 	<head>
@@ -199,14 +202,14 @@
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <div class="xs-heading text-center">
-                    <h2 class="section-subtitle">Ready to grow</h2>
+                    <h2 class="section-subtitle">Ready to grow>?</h2>
                     <h3 class="section-title ">Let's discuss your needs</h3>
                 </div><!-- .xs-heading END -->
             </div>
         </div><!-- .row END -->
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <form action="#" class="xs-inline-form" method="post">
+                <form action="mailto:rubenportz@gmail.com" class="xs-inline-form" method="post">
                     <div class="row no-gutters">
                         <div class="col-lg-6">
                             <input type="url" name="website" id="website" placeholder="Web URL" class="form-control">
@@ -562,6 +565,22 @@
 		</footer>
 		<!-- footer section end -->
 		<!-- js file start -->
+		<script>
+		var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbw2GSVsq7gWQZkPB2rfg2tXoafPsa6IYVh3cFaiJShULwjOuGPW/exec'
+
+		$('#submit-form').on('click', function(e) {
+		  e.preventDefault();
+		  var jqxhr = $.ajax({
+		    url: url,
+		    method: "GET",
+		    dataType: "json",
+		    data: $form.serializeObject()
+		  }).success(
+		    // do something
+		  );
+		})
+		</script>
 		<script src="assests/js/jquery-3.2.1.min.js"></script>
 		<script src="assests/js/plugins.js"></script>
 		<script src="assests/js/Popper.js"></script>
