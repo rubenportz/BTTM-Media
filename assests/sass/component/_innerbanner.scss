@@ -1,7 +1,7 @@
 /* inner-banner-area */
 .inner-banner-area {
     min-height: 350px;
-    display: flex;
+    // display: flex;
     align-items: center;
     position: relative;
     background-color: $color-primary;
@@ -27,7 +27,7 @@
     margin-bottom: 15px;
 }
 
-/* breadcumbs */ 
+/* breadcumbs */
 .breadcumbs {
     > li {
         color: #fefefe;
