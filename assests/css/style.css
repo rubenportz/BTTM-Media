@@ -273,7 +273,7 @@ button:focus {
 .xs-menus .nav-menu li > .nav-submenu {
   -webkit-box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.16);
   box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.16);
-  background-color: #FFFFFF;
+  background-color: #1a3aca;
   border-top: 0px;
   padding: 20px; }
 .xs-menus .nav-menu .nav-dropdown li:last-child a {
@@ -461,7 +461,7 @@ button:focus {
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
-    background-color: #FFFFFF;
+    background-color: #1a3aca;
     top: -1px;
     width: 100%; }
     .nav-sticky.sticky-header .xs-header .xs-logo,
