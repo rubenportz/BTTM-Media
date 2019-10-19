@@ -292,9 +292,7 @@ button:focus {
     display: block;
     padding: 57px 0 0; }
   .xs-header.header-main {
-    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
-    background-color: #FFFFFF; }
+    background-color: #1a3aca; }
     .xs-header.header-main > .container {
       position: relative; }
     .xs-header.header-main .navSidebar-wraper {
@@ -309,9 +307,7 @@ button:focus {
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        background-color: #FFFFFF;
-        -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+        background-color: #1a3aca;
         display: inline-block;
         float: left; }
         .xs-header.header-main .navSidebar-wraper .single-navicon:not(:last-child) {
@@ -361,9 +357,7 @@ button:focus {
         height: 4px;
         width: 4px;
         border-radius: 50%;
-        background-color: #0c5adb;
-        -webkit-box-shadow: 9px 0px 0px 0px #0c5adb, 18px 0px 0px 0px #0c5adb;
-        box-shadow: 9px 0px 0px 0px #0c5adb, 18px 0px 0px 0px #0c5adb;
+        background-color: #1a3aca;
         -webkit-transition: all 0.4s ease;
         -o-transition: all 0.4s ease;
         transition: all 0.4s ease;
