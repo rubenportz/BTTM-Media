@@ -234,7 +234,7 @@ button:focus {
   .xs-menus .nav-menu > li > .nav-dropdown a.active {
     color: #000000; }
   .xs-menus .nav-menu > li > a {
-    color: #333333;
+    color: white;
     padding: 60px 10px 0;
     position: relative;
     font-size: 1rem;
