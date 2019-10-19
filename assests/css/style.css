@@ -188,10 +188,8 @@ button:focus {
   .header-transparent .xs-menus .nav-menu > li > a::before {
     background-color: #fefefe; }
   .header-transparent .xs-header.header-main {
-    background-color: transparent;
-    border-bottom: 0px;
-    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1); }
+    background-color: #1A3ACA;
+    border-bottom: 0px; }
     .header-transparent .xs-header.header-main .xs-menus .nav-menu > li:not(:last-child) {
       margin-right: 25px;
       padding-right: 25px; }
@@ -200,17 +198,13 @@ button:focus {
       .header-transparent .xs-header.header-main .xs-menus .nav-menu > li.active > a .submenu-indicator-chevron {
         border-color: transparent #181818 #181818 transparent; }
       .header-transparent .xs-header.header-main .xs-menus .nav-menu > li.active > a::before {
-        background-color: #181818;
-        -webkit-box-shadow: 9px 0px 0px 0px #181818, 18px 0px 0px 0px #181818;
-        box-shadow: 9px 0px 0px 0px #181818, 18px 0px 0px 0px #181818; }
+        background-color: #1A3ACA; }
     .header-transparent .xs-header.header-main .xs-menus .nav-menu > li > a {
       color: #FFFFFF; }
       .header-transparent .xs-header.header-main .xs-menus .nav-menu > li > a .submenu-indicator-chevron {
         border-color: transparent #FFFFFF #FFFFFF transparent; }
       .header-transparent .xs-header.header-main .xs-menus .nav-menu > li > a::before {
-        background-color: #FFFFFF;
-        -webkit-box-shadow: 9px 0px 0px 0px #FFFFFF, 18px 0px 0px 0px #FFFFFF;
-        box-shadow: 9px 0px 0px 0px #FFFFFF, 18px 0px 0px 0px #FFFFFF; }
+        background-color: #1A3ACA; }
     .header-transparent .xs-header.header-main .xs-menu-tools {
       -webkit-transition: all 0.4s ease;
       -o-transition: all 0.4s ease;
@@ -219,13 +213,11 @@ button:focus {
         color: #FFFFFF; }
 
 .header-tranparent-style2 .xs-header.header-main {
-  background-color: #FFFFFF; }
+  background-color: #1A3ACA; }
   .header-tranparent-style2 .xs-header.header-main .xs-menus .nav-menu > li > a {
     color: #181818; }
     .header-tranparent-style2 .xs-header.header-main .xs-menus .nav-menu > li > a::before {
-      background-color: #181818;
-      -webkit-box-shadow: 9px 0px 0px 0px #181818, 18px 0px 0px 0px #181818;
-      box-shadow: 9px 0px 0px 0px #181818, 18px 0px 0px 0px #181818; }
+      background-color: #1A3ACA; }
   .header-tranparent-style2 .xs-header.header-main .xs-menu-tools {
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
